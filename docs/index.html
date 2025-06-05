@@ -6,27 +6,24 @@
     <title>Mr. Makan Food Recommendations</title>
     <style>
         body {
-            background-color: #121212;
+            background-color: #1c1c1c;
             color: #e0e0e0;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
         }
         h1 {
             text-align: center;
-            margin-top: 20px;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
+            margin-bottom: 30px;
         }
         .card {
-            background-color: #1e1e1e;
-            border-radius: 8px;
-            margin: 15px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #2c2c2c;
+            border-radius: 10px;
             overflow: hidden;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .card img {
             width: 100%;
@@ -36,28 +33,29 @@
             padding: 15px;
         }
         .info h2 {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-        .info h2 a {
-            color: #bb86fc;
-            text-decoration: none;
+            font-size: 1.5em;
+            margin: 0 0 10px;
         }
         .info p {
             margin: 5px 0;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <h1>Mr. Makan Food Recommendations</h1>
-    <div class="container">
-        <div class="card">
-            <img src="images/7f7a0c64-0cad-4a53-a7b6-6dbbec3bb646.png" alt="Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep">
-            <div class="info">
-                <h2><a href="https://grub.beepit.com/ordering/?type=delivery" target="_blank">Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep</a></h2>
-                <p>Steakhouse – Rating: 8.0/10</p>
-                <p>The Angus tomahawk steak impressed with its tenderness and perfect medium cooking, boasting rich flavors. Complemented by a fresh salad, the venue’s cozy ambiance suits lively gatherings rather than intimate dinners. Offering great value, it’s an ideal choice for steak nights with friends. Highly recommended for meat lovers!</p>
-            </div>
+    <div class="card">
+        <img src="images/7f7a0c64-0cad-4a53-a7b6-6dbbec3bb646.png" alt="Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep">
+        <div class="info">
+            <h2><a href="https://grub.beepit.com/ordering/?type=delivery" target="_blank">Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep</a></h2>
+            <p>Steakhouse – Rating: 8.0/10</p>
+            <p>The Angus tomahawk steak impressed with its tenderness and perfect medium cooking, boasting rich flavors. Complemented by a fresh salad, the venue’s cozy ambiance suits lively gatherings rather than intimate dinners. Offering great value, it’s an ideal choice for steak nights with friends. Highly recommended for meat lovers!</p>
         </div>
     </div>
 </body>
