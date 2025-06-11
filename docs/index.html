@@ -6,22 +6,23 @@
     <title>Mr. Makan Food Recommendations</title>
     <style>
         body {
-            background-color: #121212;
-            color: #e0e0e0;
+            background-color: #1a1a1a;
+            color: #f5f5f5;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
         }
-        h2 {
-            color: #ffab40;
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
         }
         .card {
-            background-color: #1e1e1e;
+            background-color: #2a2a2a;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 20px 0;
+            margin: 20px auto;
+            max-width: 600px;
             overflow: hidden;
-            transition: transform 0.2s;
+            transition: transform 0.3s;
         }
         .card:hover {
             transform: scale(1.05);
@@ -33,11 +34,18 @@
         .info {
             padding: 15px;
         }
-        a {
-            text-decoration: none;
-            color: #ffab40;
+        .info h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
         }
-        a:hover {
+        .info p {
+            margin: 5px 0;
+        }
+        .info a {
+            color: #71a3f9;
+            text-decoration: none;
+        }
+        .info a:hover {
             text-decoration: underline;
         }
     </style>
