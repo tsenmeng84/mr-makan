@@ -6,53 +6,56 @@
     <title>Mr. Makan Food Recommendations</title>
     <style>
         body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         h1 {
-            text-align: center;
-            margin-bottom: 40px;
+            margin: 20px 0;
             font-size: 2.5em;
-            color: #ff9800;
+            text-align: center;
         }
         .card {
-            background-color: #1e1e1e;
-            border-radius: 8px;
-            overflow: hidden;
-            margin-bottom: 20px;
+            background-color: #242424;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
         }
-        .card img {
+        .card:hover {
+            transform: scale(1.05);
+        }
+        img {
             width: 100%;
-            height: auto;
+            border-radius: 10px;
         }
         .info {
-            padding: 15px;
+            margin-top: 15px;
         }
-        .info h2 {
+        h2 {
             font-size: 1.5em;
-            margin: 0 0 5px;
+            margin: 10px 0;
         }
-        .info a {
+        a {
+            color: #ffcc00;
             text-decoration: none;
-            color: #ff9800;
         }
-        .info a:hover {
+        a:hover {
             text-decoration: underline;
         }
-        .info p {
+        p {
             margin: 5px 0;
-            color: #cccccc;
-            line-height: 1.6;
         }
     </style>
 </head>
 <body>
     <h1>Mr. Makan Food Recommendations</h1>
-
     <div class="card">
         <img src="images/7f7a0c64-0cad-4a53-a7b6-6dbbec3bb646.png" alt="Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep">
         <div class="info">
@@ -61,7 +64,7 @@
             <p>The Angus tomahawk steak impressed with its tenderness and perfect medium cooking, boasting rich flavors. Complemented by a fresh salad, the venue’s cozy ambiance suits lively gatherings rather than intimate dinners. Offering great value, it’s an ideal choice for steak nights with friends. Highly recommended for meat lovers!</p>
         </div>
     </div>
-
+    
     <div class="card">
         <img src="images/ed03ab83-dd5b-45cf-9535-d989e801fddc.jpg" alt="MeatPoint Halal Steakhouse (@ttdimeatpoint) • Instagram photos and videos">
         <div class="info">
@@ -70,7 +73,7 @@
             <p>Juicy and flavorful Australian grain-fed steak, cooked to perfection, shines at this cozy, simple eatery. Generous sides complement the meal, all at reasonable prices. While they don't serve alcohol, the halal offerings make it a delightful choice for diners, ensuring a satisfying experience that's hard to beat.</p>
         </div>
     </div>
-
+    
     <div class="card">
         <img src="images/0c0da3c6-590f-4344-88c0-694d74bdacf6.jpg" alt="Edward’s Urban Fish & Chips Malaysia (@edwardsufnc) • Instagram photos and videos">
         <div class="info">
@@ -79,7 +82,7 @@
             <p>The fish and chips impress with a light, crispy batter encasing fresh fish. While the modern ambiance suits families, the venue can become quite crowded, especially on weekends, and reservations are not accepted. Overall, it's a reasonable choice for a delightful meal, though be prepared for potential wait times.</p>
         </div>
     </div>
-
+    
     <div class="card">
         <img src="images/73f75bbc-f950-4570-a351-79134e669009.jpg" alt="Madam Kwan's | Truly Malaysian Cuisine">
         <div class="info">
@@ -88,7 +91,7 @@
             <p>The nasi lemak beef rendang impresses with its tender beef and flavorful sambal, creating a delightful experience. Although the service lags and the prices are steep, the cozy ambiance makes it ideal for family gatherings. A satisfying dish, though the pace may test your patience.</p>
         </div>
     </div>
-
+    
     <div class="card">
         <img src="images/default.png" alt="Foo Foo Classic Desserts">
         <div class="info">
@@ -97,5 +100,10 @@
             <p></p>
         </div>
     </div>
-</body>
-</html>
+    
+    <div class="card">
+        <img src="images/1070b52e-8df1-49e0-8c2c-9b83b664db52.webp" alt="OSSU! おっす kushiyaki (@ossu.my) • Instagram photos and videos">
+        <div class="info">
+            <h2><a href="https://www.instagram.com/ossu.my?igsh=MWxkbnFxdGx0Mm40NQ==" target="_blank">OSSU! おっす kushiyaki (@ossu.my) • Instagram photos and videos</a></h2>
+            <p>Japanese – Rating: 9.0/10</p>
+            <p>Yakitori offers perfectly seasoned and cooked skewers in a cozy setting, ideal for after-work drinks and snacks. The friendly staff enhance the good vibes, making it a great spot for colleagues. With reasonable
