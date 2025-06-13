@@ -14,41 +14,47 @@
         }
         h1 {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            color: #ffcc00;
         }
         .card {
             background-color: #1e1e1e;
             border-radius: 10px;
             overflow: hidden;
-            margin: 15px 0;
-            padding: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            transition: transform 0.3s;
         }
-        .card img {
+        .card:hover {
+            transform: scale(1.05);
+        }
+        img {
             width: 100%;
-            border-radius: 10px;
+            border-bottom: 2px solid #ffcc00;
         }
         .info {
-            margin-top: 10px;
+            padding: 20px;
         }
         h2 {
-            font-size: 1.5rem;
-            margin: 0;
+            font-size: 1.5em;
+            margin: 0 0 10px;
         }
         h2 a {
-            color: #62b5e5;
             text-decoration: none;
+            color: #ffcc00;
         }
         h2 a:hover {
             text-decoration: underline;
         }
         p {
             margin: 5px 0;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
     <h1>Mr. Makan Food Recommendations</h1>
+    
     <div class="card">
         <img src="images/7f7a0c64-0cad-4a53-a7b6-6dbbec3bb646.png" alt="Grub by Ahong & Friends Menu | Order Food Delivery & Takeaway | Beep">
         <div class="info">
@@ -73,6 +79,15 @@
             <h2><a href="https://www.instagram.com/edwardsufnc?igsh=MTc1NjNvYnB0NGc5dA==" target="_blank">Edward’s Urban Fish & Chips Malaysia (@edwardsufnc) • Instagram photos and videos</a></h2>
             <p>Fish 'n' Chips – Rating: 9.0/10</p>
             <p>The fish and chips impress with a light, crispy batter encasing fresh fish. While the modern ambiance suits families, the venue can become quite crowded, especially on weekends, and reservations are not accepted. Overall, it's a reasonable choice for a delightful meal, though be prepared for potential wait times.</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="images/73f75bbc-f950-4570-a351-79134e669009.jpg" alt="Madam Kwan's | Truly Malaysian Cuisine">
+        <div class="info">
+            <h2><a href="https://www.madamkwans.com.my/" target="_blank">Madam Kwan's | Truly Malaysian Cuisine</a></h2>
+            <p>Malay – Rating: 9.0/10</p>
+            <p>The nasi lemak beef rendang impresses with its tender beef and flavorful sambal, creating a delightful experience. Although the service lags and the prices are steep, the cozy ambiance makes it ideal for family gatherings. A satisfying dish, though the pace may test your patience.</p>
         </div>
     </div>
 </body>
